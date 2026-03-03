@@ -1,8 +1,8 @@
 class Xsay < Formula
   desc "Project-aware macOS TTS CLI with voice profiles and inline sound effects"
   homepage "https://github.com/serglav/xsay"
-  url "https://github.com/serglav/xsay/archive/refs/tags/v3.1.0.tar.gz"
-  sha256 "2c42ae24116494dba77c037b6c1cb1929fa9a987834e85198876b6d094fe9a38"
+  url "https://github.com/serglav/xsay/archive/refs/tags/v3.2.0.tar.gz"
+  sha256 "a547bd3bc79f34d3084774b95f4ea42183c6d2af163e121fcf03c53cdf0f36a2"
   license "MIT"
   head "https://github.com/serglav/xsay.git", branch: "main"
 
