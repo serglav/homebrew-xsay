@@ -1,8 +1,8 @@
 class Xsay < Formula
   desc "Project-aware macOS TTS CLI with voice profiles and inline sound effects"
   homepage "https://github.com/serglav/xsay"
-  url "https://github.com/serglav/xsay/archive/refs/tags/v3.2.0.tar.gz"
-  sha256 "a547bd3bc79f34d3084774b95f4ea42183c6d2af163e121fcf03c53cdf0f36a2"
+  url "https://github.com/serglav/xsay/archive/refs/tags/v3.2.1.tar.gz"
+  sha256 "417670dafa4d5d6e4814e68411408363b755daa31129bb3342513c3bb8a6265c"
   license "MIT"
   head "https://github.com/serglav/xsay.git", branch: "main"
 
@@ -40,5 +40,6 @@ class Xsay < Formula
 
   test do
     assert_match "xsay v", shell_output("#{bin}/xsay --help")
+    assert_match "3.2.1", shell_output("#{bin}/xsay --version")
   end
 end
